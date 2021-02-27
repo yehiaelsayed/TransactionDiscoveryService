@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionDiscovery.API", "TransactionDiscoveryService\TransactionDiscovery.API.csproj", "{FFDEFD95-F7B8-47D3-B8BF-18FD76A75D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionDiscovery.Services", "TransactionDiscovery.Services\TransactionDiscovery.Services.csproj", "{D27CFB78-5467-4E1B-8F93-8F80D7525147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactonDiscovery.Wallet", "TransactonDiscovery.Wallet\TransactonDiscovery.Wallet.csproj", "{19530688-0BEC-45CE-BFDF-888EBC9D4048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionDiscovery.Data", "TransactionDiscovery.Data\TransactionDiscovery.Data.csproj", "{9FDD0288-273E-4152-B4CE-20FA9F68B219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactonDiscovery.Utils", "Utils\TransactonDiscovery.Utils.csproj", "{87C56723-ED98-43D8-9EA4-56BF82CFF1DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDEFD95-F7B8-47D3-B8BF-18FD76A75D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDEFD95-F7B8-47D3-B8BF-18FD76A75D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDEFD95-F7B8-47D3-B8BF-18FD76A75D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDEFD95-F7B8-47D3-B8BF-18FD76A75D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27CFB78-5467-4E1B-8F93-8F80D7525147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27CFB78-5467-4E1B-8F93-8F80D7525147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27CFB78-5467-4E1B-8F93-8F80D7525147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27CFB78-5467-4E1B-8F93-8F80D7525147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19530688-0BEC-45CE-BFDF-888EBC9D4048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19530688-0BEC-45CE-BFDF-888EBC9D4048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19530688-0BEC-45CE-BFDF-888EBC9D4048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19530688-0BEC-45CE-BFDF-888EBC9D4048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDD0288-273E-4152-B4CE-20FA9F68B219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDD0288-273E-4152-B4CE-20FA9F68B219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDD0288-273E-4152-B4CE-20FA9F68B219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDD0288-273E-4152-B4CE-20FA9F68B219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C56723-ED98-43D8-9EA4-56BF82CFF1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C56723-ED98-43D8-9EA4-56BF82CFF1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C56723-ED98-43D8-9EA4-56BF82CFF1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C56723-ED98-43D8-9EA4-56BF82CFF1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C121EB6-8350-489B-902C-A5F594EB19E3}
+	EndGlobalSection
+EndGlobal

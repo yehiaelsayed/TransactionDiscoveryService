@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TransactionDiscovery.Data\TransactionDiscovery.Data.csproj" />
+    <ProjectReference Include="..\TransactonDiscovery.Wallet\TransactonDiscovery.Wallet.csproj" />
+    <ProjectReference Include="..\Utils\TransactonDiscovery.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "f7d687dd-d43c-4518-b1e3-0ffaf288a578",
+		"name": "TransactionsDiscovery",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Accounts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"AccountsIds\": [\r\n        \"GCPWZSMOLI7SWZWQYILSPZIPJMB3ZOR5JNB6DH2OPAPLPAD2BHMRP2VT\",\r\n        \"GD7Q3Q2AHVAYGKTKII3O5LQMYZJWB24ITLINSAFTJHPVX2S6N7XTVJIIXX\",\r\n        \"GCIMYSPNPJHHUVGCIHJYFN7BFUBERQSLHV5TZYVU4QR7RYTSZSQBX7SN\",\r\n        \"GCYY337UP2VNQTJ4AZTO2K54HK5V5RARB6BDFQXLFVZMEKFPTZTWBJQP\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TransactionDiscovery/AddAccounts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TransactionDiscovery",
+						"AddAccounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account History",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TransactionDiscovery/History",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TransactionDiscovery",
+						"History"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -9,6 +9,11 @@
 ```
  ConnectionStrings:DefaultConnection
 ```
+##### Entrypoint project path
+```
+ \TransactionDiscoveryService\TransactionDiscovery.API.csproj
+```
+
 ##### Base Url and Ports 
 
 ``Run on IISExpress Https : https://localhost:44300/``

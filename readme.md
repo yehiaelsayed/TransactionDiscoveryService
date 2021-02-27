@@ -5,7 +5,7 @@
 
 
 ## How To Run 
-#####Please add your SQL server database connection string under appsetting.json in this path
+##### Please add your SQL server database connection string under appsetting.json in this path
 ```
  ConnectionStrings:DefaultConnection
 ```
